@@ -297,10 +297,12 @@ ul {
   border-radius: 50%;
 }
 
-.social-icons:hover,
+.link-focus:hover,
 .link-focus:focus 
 {
+
   background-color: #2196f3;
+  outline: none;
   
 }
 .social-icons:hover .social-media, .link-focus:focus .social-media {
@@ -319,7 +321,7 @@ ul {
 .diagram-focusing:focus, .diagram-focusing:hover {
   border-color: var(--blueColor);
   background-color: #fff;
-  outline-color: var(--blueColor);
+  outline:none;
 }
 .diagram-focusing:hover .companies, .diagram-focusing:focus .companies{
   fill: var(--blueColor);
@@ -352,6 +354,8 @@ ul {
 }
  .link-focus:focus {
   fill: var(--blueColor);
+  outline-color: var(--blueColor);
+  
  
   
 }
